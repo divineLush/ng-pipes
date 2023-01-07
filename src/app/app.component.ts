@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngpipes';
+  name: string = '';
+  dateInput: string = '';
+  amount: string = '';
+  height: string = '';
+  miles: string = '';
+  person = { name: 'John', age: 92 };
 }
